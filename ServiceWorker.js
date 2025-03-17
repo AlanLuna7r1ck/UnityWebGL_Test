@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-My Unity 6 Project Test-1.61";
 const contentToCache = [
     "Build/WebGL_Telegram_Builds.loader.js",
-    "Build/WebGL_Telegram_Builds.framework.js.br",
-    "Build/WebGL_Telegram_Builds.data.br",
-    "Build/WebGL_Telegram_Builds.wasm.br",
+    "Build/WebGL_Telegram_Builds.framework.js.unityweb",
+    "Build/WebGL_Telegram_Builds.data.unityweb",
+    "Build/WebGL_Telegram_Builds.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
