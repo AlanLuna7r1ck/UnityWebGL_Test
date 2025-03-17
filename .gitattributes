@@ -1,6 +1,0 @@
-*.data.gz binary
-*.wasm.gz binary
-*.js.gz binary
-*.data.br binary
-*.wasm.br binary
-*.js.br binary
