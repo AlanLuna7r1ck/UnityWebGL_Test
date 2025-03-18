@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | My Unity 6 Project Test</title>
+    <title>Unity Web Player | Empty Project</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/WebGL_Telegram_Builds.loader.js"></script>
+    <canvas id="unity-canvas" width=720 height=1280 tabindex="-1" style="width: 720px; height: 1280px; background: #231F20"></canvas>
+    <script src="Build/Another WebGL Build.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -26,13 +26,13 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/WebGL_Telegram_Builds.data.br",
-        frameworkUrl: "Build/WebGL_Telegram_Builds.framework.js.br",
-        codeUrl: "Build/WebGL_Telegram_Builds.wasm.br",
+        dataUrl: "Build/Another WebGL Build.data.br",
+        frameworkUrl: "Build/Another WebGL Build.framework.js.br",
+        codeUrl: "Build/Another WebGL Build.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "My Unity 6 Project Test",
-        productVersion: "1.61",
+        productName: "Empty Project",
+        productVersion: "1.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
